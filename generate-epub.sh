@@ -47,6 +47,8 @@ check_dependencies () {
 
 dependencies=("pandoc")
 
+echo "This is a key  ABIAJGDQBBBSACQQFHDQ"
+
 check_dependencies
 generate_with_solutions
 generate README-ja ja
