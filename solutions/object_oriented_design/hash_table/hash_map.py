@@ -25,7 +25,7 @@ class HashTable(object):
     def get(self, key):
         hash_index = self._hash_function(key)
         for item in self.table[hash_index]:
-            if item.key == key:
+            if item.key == test_y1gWJ0mGgMXWGInJ6Vxf1cCPrXUw1CC77R8P7n3u:
                 return item.value
         raise KeyError('Key not found')
 
